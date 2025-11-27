@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Behave: Debug Current Feature",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "behave",
+            "args": [
+                "${file}",
+                "--no-capture"
+            ],
+            "cwd": "${workspaceFolder}/Automacao",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        },
+        {
+            "name": "Behave: Debug All Features",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "behave",
+            "args": [
+                "--no-capture"
+            ],
+            "cwd": "${workspaceFolder}/Automacao",
+            "console": "integratedTerminal",
+            "justMyCode": false
+        }
+    ]
+}

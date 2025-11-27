@@ -1,0 +1,12 @@
+{
+    "cucumber.features": [
+        "Automacao/features/**/*.feature"
+    ],
+    "cucumber.glue": [
+        "Automacao/features/steps/**/*.py"
+    ],
+    "cucumber.language": "pt",
+    "files.associations": {
+        "*.feature": "cucumber"
+    }
+}

@@ -1,0 +1,36 @@
+# Ambientes virtuais Python
+venv/
+env/
+ENV/
+.venv/
+
+# Bytecode compilado do Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Arquivos de evidências e testes (gerados automaticamente)
+Automacao/evidencia/
+Automacao/reports/
+Automacao/imagem_produto/
+
+# Arquivos sensíveis (credenciais)
+Automacao/utils/user.json
+
+# Arquivos do VS Code
+*.code-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Arquivos temporários
+*.tmp
+*.bak
+*.swp
+*~
